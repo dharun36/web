@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--www.codingflicks.com--> 
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Login Form</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <style>
+
+    .form-box {
+        background-color: rgba(0, 0, 0, 0.5);
+        margin: auto auto;
+        padding: 40px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px #000;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 400px;
+        height: 430px;
+    }
+    body {
+        background: url("https://wallpapers.com/images/hd/road-background-psghs1qse7c89ov0.jpg")no-repeat center center;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+
+    }
+
+
+    </style>
+</head>
+<body>
+	<div class="form-box">
+        <center>
+            <h2 class="text-white">
+                Login Form
+            </h2>
+        </center>
+		
+        <label class="text-white">Email</label>
+        <input class="form-control" placeholder="Your Email Address" type="text">
+        <br>
+        <label class="text-white">Password</label>
+        <input class="form-control" placeholder="Your Password" type="password"><br><br>
+        <input class="form-check-input" id="terms" type="checkbox">
+        <label for="terms"></label>
+        <span class="text-white">Agree with <a class="text-warning" href="#">Terms & Conditions</a></span>
+        <br><br>
+        <div class="d-grid">
+            <br><button class="btn btn-danger btn btn-block">Login</button>
+        </div>
+	</div>
+</body>
+</html>
